@@ -1,0 +1,22 @@
+{
+  "name": "zgraphy",
+  "version": "0.0.2",
+  "description": "a canvas lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/895252509/ZGraphy.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "zx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/895252509/ZGraphy/issues"
+  },
+  "homepage": "https://github.com/895252509/ZGraphy#readme"
+}
