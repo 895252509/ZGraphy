@@ -1,6 +1,11 @@
-export default function ZGraphy(){
+export default class ZGraphy{
 
-  function log(){
+  constructor(){
+    this.name = "zx";
+
+  }
+
+  log(){
     console.log("!@%^$@!&#");
 
     window.addEventListener("load", ()=> {
@@ -19,8 +24,5 @@ export default function ZGraphy(){
     const erer = [12, 5, 8, 130, 44].find((e)=>{
       return e >= 15;
     });
-  }
-  return {
-    log : log
   }
 }
