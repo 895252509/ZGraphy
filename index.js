@@ -1,6 +1,7 @@
 
-export default class ZGraphy{
-  log(){
-    console.log("!@%^$@!&#");
-  }
-}
+import { ZGraphy } from 'src/ZGraphy.js';
+
+// const zg = new ZGraphy();
+
+ZGraphy.log();
+
