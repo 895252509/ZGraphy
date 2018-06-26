@@ -1,7 +1,7 @@
 'use strict';
 
-var _ZGraphy = require('src/ZGraphy.js');
+var _ZGraphy = require('./src/ZGraphy.js');
 
-// const zg = new ZGraphy();
+const zg = new _ZGraphy.ZGraphy();
 
-_ZGraphy.ZGraphy.log();
+zg.log();
