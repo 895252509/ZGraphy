@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build1": "babel src -d lib",
-    "build2": "babel index.js --out-file index.r.js"
+    "build2": "babel index.js --out-file index.r.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

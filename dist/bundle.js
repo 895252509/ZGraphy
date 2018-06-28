@@ -71,7 +71,6 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 class ZGraphy{
 
   constructor(){
@@ -123,22 +122,24 @@ class ZGraphy{
     });
   }
 }
-/* harmony export (immutable) */ __webpack_exports__["ZGraphy"] = ZGraphy;
+/* harmony export (immutable) */ __webpack_exports__["a"] = ZGraphy;
 
 
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_ZGraphy_js__ = __webpack_require__(0);
 
 
-var _ZGraphy = __webpack_require__(0);
 
-const zg = new _ZGraphy.ZGraphy();
+const zg = new __WEBPACK_IMPORTED_MODULE_0__src_ZGraphy_js__["a" /* ZGraphy */]();
 
 zg.log();
+
 
 
 /***/ })
