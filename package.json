@@ -5,8 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build1": "babel src -d lib",
-    "build2": "babel index.js --out-file index.r.js",
     "build": "webpack"
   },
   "repository": {
@@ -23,11 +21,11 @@
   },
   "homepage": "https://github.com/895252509/ZGraphy#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
+    "ts-loader": "^4.4.2",
     "webpack": "^4.12.1",
     "webpack-cli": "^3.0.8"
   },
-  "dependencies": {}
+  "dependencies": {
+    "typescript": "^2.9.2"
+  }
 }

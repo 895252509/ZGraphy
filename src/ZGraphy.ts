@@ -1,5 +1,7 @@
 export class ZGraphy{
 
+  private name: string;
+
   constructor(){
     this.name = "zx";
 
@@ -44,7 +46,7 @@ export class ZGraphy{
 
     e222();
 
-    const erer = [12, 5, 8, 130, 44].find((e)=>{
+    const erer = (<number[]>[12, 5, 8, 130, 44]).find((e)=>{
       return e >= 15;
     });
   }
