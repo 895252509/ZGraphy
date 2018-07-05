@@ -37,7 +37,7 @@ export class ZGraphy{
         setTimeout( ()=> {
           console.log("promise log");
           reso();
-        }, 2000 );      
+        }, 2000 );
       }).then(()=>{
         console.log("promise reso");
         
