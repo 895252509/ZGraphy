@@ -1,4 +1,9 @@
-export default class Eventable {
+interface Eventable {
+  
+}
+
+
+export default class Eventable1 {
 
   private handlers: Function[];
 
