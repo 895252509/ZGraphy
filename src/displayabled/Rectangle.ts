@@ -1,4 +1,7 @@
 import { Displayabled } from "../core/Displayabled";
+import { Rect } from "../core/Rect";
+import { Point } from "../core/Point";
+import { Size } from "../core/Size";
 
 export class Rectangle extends Displayabled{
   private x:number;
@@ -35,12 +38,10 @@ export class Rectangle extends Displayabled{
   }
 
   get data(){
-    return {
-      x: this.x,
-      y: this.y,
-      w: this.w,
-      h: this.h,
-    }
+    return new Rect(
+      new Point(this.x, this.y),
+      new Size( this.w, this.h )
+    )
   }
 
   get id(){

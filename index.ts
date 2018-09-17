@@ -1,7 +1,7 @@
-
 import { ZGraphy as zg } from './src/ZGraphy';
 import { Rectangle } from "./src/displayabled/Rectangle";
 import { Line } from "./src/displayabled/Line";
+import { EventType } from "./src/core/Eventable";
 
 window.onload = function (){
   let zg1 = new zg(this.document.getElementById("main"));
@@ -15,6 +15,10 @@ window.onload = function (){
   const line1 = new Line(0,0,50,50);
   rect.addLinkLine(line1, 20, 20, "forward");
   rect2.addLinkLine(line1, 10, 10, "behind");
+
+  rect2.on( EventType.MouseMove, (e:MouseEvent) => {
+    console.log(`mousmove:${e.clientX},${e.clientY}`);
+  });
 
   zg1.add(line1);
   zg1.run();

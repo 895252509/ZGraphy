@@ -23,7 +23,7 @@ interface EHandler{
 export class Eventable{
   private handlers:Map<EventType,Array<EventHandler>>;
   constructor(){
-
+    this.handlers = new Map<EventType,Array<EventHandler>>();
   }
   public on(en:EventType,eh:EHandler){
     if( !this.handlers.has(en) )
